@@ -1,0 +1,110 @@
+body {
+  color: #222;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+img {
+  max-width: 100%;
+}
+
+main {
+  padding: 10px;
+  max-width: 700px;
+  margin: 0 auto;
+}
+
+header {
+  padding-top: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 50px;
+}
+
+header a {
+  text-decoration: none;
+  color: inherit;
+}
+
+header a.logo {
+  font-weight: bold;
+  font-size: 20px;
+}
+
+header nav {
+  display: flex;
+  gap: 15px;
+  align-items: center;
+}
+
+div.post {
+  display: flex;
+  gap: 20px;
+  margin-bottom: 30px;
+}
+
+div.post div.texts h2 {
+  font-size: 1.6rem;
+  margin-bottom: 10px;
+}
+
+div.post div.texts p.summary {
+  line-height: 22px;
+  color: rgb(128, 128, 128);
+}
+
+div.post div.texts p.info {
+  font-size: small;
+  display: flex;
+  gap: 10px;
+  color: rgb(201, 196, 196);
+}
+
+div.post div.texts p.info a {
+  font-weight: bold;
+  text-decoration: underline;
+}
+
+div.post div.texts p.summary {
+  font-size: 14px;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+form input {
+  padding: 10px;
+  border: 2px solid rgba(128, 128, 128, 0.1);
+  border-radius: 8px;
+  color: gray;
+  outline: none;
+}
+form input::placeholder {
+  color: gray;
+}
+form button {
+  padding: 10px 0;
+  border: none;
+  background: rgb(57, 57, 214);
+  border-radius: 8px;
+  color: white;
+  font-weight: bold;
+  cursor: pointer;
+  transition: all ease-in 0.2s;
+}
+form button:hover {
+  background: rgba(57, 57, 214, 0.4);
+  border: 1px solid rgba(57, 57, 214, 0.4);
+  /* color: rgb(57, 57, 214); */
+}
+.form__heading {
+  text-align: center;
+  margin: 20px 0;
+  color: #222;
+}
